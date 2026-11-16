@@ -1,0 +1,82 @@
+name: global_ai_train_tracker
+description: Global AI Train Tracker - Complete Admin Ecosystem - Owner MD BELAL HOSSEN - Project 793207191715
+publish_to: 'none'
+version: 2.4.1+41
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ================= FIREBASE - PROJECT: global-ai-train-tracker =================
+  # Project Number: 793207191715
+  # Project ID: global-ai-train-tracker
+  # Firebase URL: https://global-ai-train-tracker-default-rtdb.firebaseio.com
+  # Storage: global-ai-train-tracker.firebasestorage.app
+  # Mobilesdk App ID: 1:793207191715:android:a7f7e788220ebb3c26a716
+  # API Key: AIzaSyC8PteupdXqGNNfPYkEYVGB5WwiueRMDOg
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.19.0
+  cloud_firestore: ^4.17.0
+  firebase_database: ^10.5.0
+  firebase_storage: ^11.6.0
+  firebase_messaging: ^14.9.0
+  firebase_analytics: ^10.10.0
+  firebase_crashlytics: ^3.5.0
+  firebase_remote_config: ^4.4.7
+
+  # ================= AUTH - LOGIN / REGISTRATION =================
+  # Owner: mdbelalhossen2029@gmail.com - Exclusive Control
+  google_sign_in: ^6.2.1
+
+  # ================= DEVICE & SECURITY - ALL HACKER LIST =================
+  # Hacker List: IMEI, IP, Device ID, Logs
+  device_info_plus: ^10.0.0
+  package_info_plus: ^8.0.0
+  crypto: ^3.0.3
+
+  # ================= ADMIN DASHBOARD - ADMIN CONTROL =================
+  # Real-Time Stats: TOTAL / ACTIVE / INACTIVE
+  # Ad Management Controls: App Open Ad / Interstitial Ad / Rewarded Timer Ad
+  shared_preferences: ^2.2.2
+
+  # ================= VIEW ADMIN LIST - V14.1 =================
+  # Admin List & Sub-Admins Management
+  # Owner: MD BELAL HOSSEN - Golden Rim - Absolute Control
+  http: ^1.2.0
+
+  # ================= AI ASSISTANT - GEMINI =================
+  # AI Assistant - Gemini AI Intelligent Query Resolver
+  google_generative_ai: ^0.4.7
+
+  # ================= ADMOB - USER APP ONLY =================
+  # ADMOB_APP_ID: ca-app-pub-7456993737714049~6233960100
+  # ADMOB_BANNER: ca-app-pub-7456993737714049/8843636560
+  # ADMOB_REWARDED: ca-app-pub-7456993737714049/3511418834
+  google_mobile_ads: ^4.0.0
+
+  # ================= UI & UTILS =================
+  cupertino_icons: ^1.0.6
+  intl: ^0.19.0
+  url_launcher: ^6.2.2
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+  in_app_review: ^2.0.9
+  share_plus: ^10.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
